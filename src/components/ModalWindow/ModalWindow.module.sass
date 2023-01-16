@@ -1,0 +1,18 @@
+.modal_window
+    @apply fixed top-0 left-0 w-full h-full bg-black bg-opacity-75
+    @apply flex justify-center items-center
+    // @apply hidden
+    .modal_window_holder
+        @apply bg-white p-4 min-w-[400px]
+        .title
+            @apply text-lg font-bold
+        .form
+            .form_control
+                @apply my-4
+                .form_control_label
+                    @apply block w-full mb-2 text-sm font-semibold
+                .form_control_input
+                    @apply block w-full
+                .form_control_button
+            .form_control_row
+                @apply flex gap-2
